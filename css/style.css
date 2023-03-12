@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:100px;
+}
+
+#content{
+    display:flex;
+    gap:15px;
+    
+}
+
+#row{
+    display:flex;
+}
+
+#grid{
+    padding:75px;
+    
+}
+
+#sketchScreen{
+    border:solid lightblue;
+}
+
+
+.filled{
+    background-color: black;
+}
+
+
+.leftButtons{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:60px;
+}
+
+#slideContainer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(270deg);
+}
+
+.rightButtons{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
